@@ -28,12 +28,16 @@ int main(){
     // no meio da frase 
     printf("O número %d é secreto");
 
-}    
+   
 
 // Temos a função scanf que lê o teclado 
 // A função scanf precisa saber duas coisas: 
 // 1) O tipo do dado que ela vai ler
 // 2) Em qual variável ela deverá colocar o valor lido
+   
+   int chute;
 
-
-
+   printf("Qual é o seu chute? ");
+   scanf("%d", &chute);
+   printf("Você chutou o número %d!", chute);
+} 
